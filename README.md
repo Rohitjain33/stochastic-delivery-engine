@@ -1,10 +1,10 @@
-# 🚚 Probabilistic Delivery Risk Engine
+# Probabilistic Delivery Risk Engine
 
 A production-grade stochastic simulation engine designed to model complex delivery estimate dynamics (ETAs). It uses advanced probabilistic modeling—including Monte Carlo simulations, Random Walk modeling, and Markov Chains—to effectively determine ETA risk under a variety of traffic configurations.
 
 > **Mathematical Formulation**: For a deep dive into the formal formulas and mathematics powering this engine, please see [FORMULATION.md](FORMULATION.md).
 
-## 🌟 Features
+## Features
 - **Monte Carlo Simulations**: Evaluate base expected times, P95 timelines, and delay probabilities.
 - **Random Walk Dynamics**: Account for stochastic noise and time drift across multiple operational stages (Pickup, Transit, Drop).
 - **Markov Chain Sub-States**: Realistically simulate shifting delivery conditions moving dynamically between `ON_TIME`, `DELAYED`, and `SEVERE` delay states.
@@ -14,7 +14,7 @@ A production-grade stochastic simulation engine designed to model complex delive
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 This architecture gracefully relies on [Astral's `uv`](https://github.com/astral-sh/uv) to manage its dependencies aggressively. 
 
@@ -46,7 +46,7 @@ docker-compose up --build
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── api/             # FastAPI schemas and core endpoint routing logic
