@@ -1,0 +1,26 @@
+# Ignore blog draft
+BLOG_POST.md
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
